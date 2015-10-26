@@ -22,11 +22,12 @@ git checkout BRANCH_NAME: change branches
 
 ###What is a pull request and how do you create and merge one?
 A pull request is when you submit your modified files to the repo to have them be merged with the master branch. You have to go into your terminal, cd into the project's directory, and type the following commands:
->1. $ git checkout master
->2. $ git pull origin master
->3. $ git checkout BRANCH_NAME
->5. $ git merge master
->6. $ git push origin BRANCH_NAME
+
+* $ git checkout master
+* $ git pull origin master
+* $ git checkout BRANCH_NAME
+* $ git merge master
+* $ git push origin BRANCH_NAME
 
 Open the Github repo. Click on the green button that says "Compare & pull request". Double check that you are in the correct fork/repo. Then, click on the green button that says "Merge pull request". Confirm the merge by clicking on the "Confirm merge" button.
 
