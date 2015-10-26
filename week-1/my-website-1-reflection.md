@@ -3,6 +3,7 @@
 ###Explain how to create a repository on GitHub and clone the repository to your local computer to a non-technical person.
 ####How to create a repository on GitHub
 Repositories are where you can view your project files on Github and allow collaboration.
+
 1. Open [GitHub](https://github.com/)
 2. Click on the __+__ in the upper righthand corner, then click __New repository__
 3. Give your repository a name (use characters a-z, A-Z, 0-9, _, or -)
@@ -13,6 +14,7 @@ Repositories are where you can view your project files on Github and allow colla
 
 ####How to clone a repository
 Cloning repositories means to download a copy of all of the files in a repository onto your device. This allows you to make changes on your computer, which you can push back to Github in order to merge your local files with the master branch.
+
 1. Go to the repository that you want to clone. If you forked that repository, go to your copy.
 2. In the righthand sidebar, look for “HTTPS clone URL”.
 3. Click on the clipboard icon. This will copy the URL for you.
@@ -37,4 +39,4 @@ Licenses specify when and how a person can use the files that you have uploaded 
 I struggled with creating branches, merging with the master branch, making pull requests, and merging pull requests. I'm still practicing going through this process so that it'll be easier in the future.
 
 ###Did you find any resources on your own that helped you better understand a topic? If so, please list it.
-I looked at the [GitHub git cheat sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf) to see what the different git commands are and what they do. I thought it was really helpful and well-written.
+I looked at the [GitHub git cheat sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf) to see what the different git commands are and what they do. I thought it was really helpful and well-written. I also found a website that allows you to [preview a markdown file](http://markdownlivepreview.com/), which helped me fix some formatting issues.
