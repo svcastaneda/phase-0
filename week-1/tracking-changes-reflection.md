@@ -11,9 +11,15 @@ You should make your commit messages short. Start out with a summary of 50 chara
 The last commit.
 
 ###What are the 3 stages of a git change and how do you move a file from one stage to the other?
-1. git add FILE_NAME(S)
-2. git commit -m "Commit message"
-3. git push origin BRANCH_NAME
+1. Working: where you make your changes
+2. Staged: the files that will be included in the commit
+3. Commit: a snapshot of all changes made to staged files from their last commit
+
+> $ git status
+
+> $ git add FILE_NAME(S)
+
+> $ git commit -m "Commit message"
 
 ###Write a handy cheatsheet of the commands you need to commit your changes?
 git status: checks the status of the files and directories.
