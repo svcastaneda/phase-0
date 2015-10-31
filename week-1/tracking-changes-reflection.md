@@ -11,9 +11,15 @@ You should make your commit messages short. Start out with a summary of 50 chara
 The last commit.
 
 ###What are the 3 stages of a git change and how do you move a file from one stage to the other?
-1. git add FILE_NAME(S)
-2. git commit -m "Commit message"
-3. git push origin BRANCH_NAME
+1. Working: where you make your changes
+2. Staged: the files that will be included in the commit
+3. Commit: a snapshot of all changes made to staged files from their last commit
+
+> $ git status
+
+> $ git add FILE_NAME(S)
+
+> $ git commit -m "Commit message"
 
 ###Write a handy cheatsheet of the commands you need to commit your changes?
 git status: checks the status of the files and directories.
@@ -22,11 +28,13 @@ git checkout BRANCH_NAME: change branches
 
 ###What is a pull request and how do you create and merge one?
 A pull request is when you submit your modified files to the repo to have them be merged with the master branch. You have to go into your terminal, cd into the project's directory, and type the following commands:
->$ git checkout master
->$ git pull origin master
->$ git checkout BRANCH_NAME
->$ git merge master
->$ git push origin BRANCH_NAME
+
+* $ git checkout master
+* $ git pull origin master
+* $ git checkout BRANCH_NAME
+* $ git merge master
+* $ git push origin BRANCH_NAME
+
 Open the Github repo. Click on the green button that says "Compare & pull request". Double check that you are in the correct fork/repo. Then, click on the green button that says "Merge pull request". Confirm the merge by clicking on the "Confirm merge" button.
 
 ###Why are pull requests preferred when working with teams?
