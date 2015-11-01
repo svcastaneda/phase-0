@@ -1,12 +1,13 @@
 ![Site Map](imgs/site-map.png)
 
 ####1. What are the 6 Phases of Web Design?
-1. __Information Gathering__: 
-2. __Planning__: 
-3. __Design__: 
-4. __Development__: 
-5. __Testing and Delivery__: 
-6. __Maintenance__: 
+1. __Information Gathering__: Think of the purpose, goals, target audience, and content for your site. This helps you plan out everything in the later steps like what kind of site you want to create, what it should include, and how it should look.
+2. __Planning__: Create a site map. A site map is kind of like a tree. It all starts at one root (the index page) and branches out to different pages and sections.
+	Example: An ecommerce website usually starts with a homepage with links to different types of products. Each link takes you to a products page, which has a list of individual products. Each individual product has its own page with more info.
+3. __Design__: Create at least one wireframe/prototype. This shows what the actual website will look like once its developed. Once you're satisfied with a certain design, you can move on to phase 4.
+4. __Development__: This is where you finally create the website. This includes both front end and back end development. 
+5. __Testing and Delivery__: You have to test your product with various devices and conditions in order to ensure usability on as many platforms as possible. Doing this also helps you to identify any bugs in the program that you didn't notice earlier.
+6. __Maintenance__: You should keep your website updated. This could mean updating whatever information may be on there, adding a new feature, optimizing load time, patching bugs, making it more secure, or modifying the layout. 
 
 ####2. What is your site's primary goal or purpose? What kind of content will your site feature?
 The primary purpose of my website is to have something to show potential future employers and other fellow developers who I am, what I have done, provide links to all of my social media accounts, and give a way to contact me. The About Me page will have a short bio description of myself, which will show what my personality is like (and if I would be a good fit with that company's culture). The Projects page would be my portfolio where I would show the projects that I have completed or am currently working on with links to both the website and the GitHub repo. I would also provide a short description about what it does, why I created it, and what role I played in its creation. The blog page would have all of the blog posts that I wrote and will write for DBC (like this!) as well as whatever topic I want to talk about (e.g. UIUX vs SWE, What Are Hackathons?, How To Contribute to Open Source, etc.). The contact page would have a contact form that would have fields for the person's name, email address, subject, and message. All of that information would be sent to me in an email. Links to my LinkedIn and GitHub accounts would be included in the header of each page.
