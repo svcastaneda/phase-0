@@ -15,3 +15,6 @@ I wondered how users interact with these types of websites and how these website
 
 ####Which parts of the challenge did you enjoy and which parts did you find tedious?
 I liked the part where I had to actually create the wireframe. I thought that thinking of everything that should be included and thinking of how those components should be layed out were a bit tedious.
+
+![Site Map](imgs/wireframe-index.png)
+![Site Map](imgs/wireframe-blog-index.png)
