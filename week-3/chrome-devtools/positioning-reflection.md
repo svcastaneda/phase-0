@@ -1,12 +1,12 @@
-![Challenge 1](imgs/challenge-1.png)
-![Challenge 2](imgs/challenge-2.png)
-![Challenge 3](imgs/challenge-3.png)
-![Challenge 4](imgs/challenge-4.png)
-![Challenge 5](imgs/challenge-5.png)
-![Challenge 6](imgs/challenge-6.png)
-![Challenge 7](imgs/challenge-7.png)
-![Challenge 8](imgs/challenge-8.png)
-![Challenge 9](imgs/challenge-9.png)
+![Challenge 1](imgs/challenge1.png)
+![Challenge 2](imgs/challenge2.png)
+![Challenge 3](imgs/challenge3.png)
+![Challenge 4](imgs/challenge4.png)
+![Challenge 5](imgs/challenge5.png)
+![Challenge 6](imgs/challenge6.png)
+![Challenge 7](imgs/challenge7.png)
+![Challenge 8](imgs/challenge8.png)
+![Challenge 9](imgs/challenge9.png)
 
 ####How can you use Chrome's DevTools inspector to help you format or position elements?
 I can use Chrome's DevTools to have a live view of my website so that I may mess around with certain CSS element attributes. For example, instead of changing the width of something in my CSS file and refreshing until I'm satisfied, I can go into Chrome and the width would update instantly. Chrome DevTools also help users find an HTML element easily with the finder tool or by hovering over the different HTML tags in the Elements tab.
