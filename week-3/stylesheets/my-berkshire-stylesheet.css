@@ -1,5 +1,9 @@
-header {
+body {
+    color: #000080;
+    background-color: #ffffff;
+}
 
+header {
     text-align: center;
 }
 
@@ -14,11 +18,6 @@ a {
 
 a:visited {
     color: #ff0000;
-}
-
-body {
-    color: #000080;
-    background-color: #ffffff;
 }
 
 table {
@@ -61,5 +60,23 @@ div + p {
 
 a + p {
     margin-top: 20px;
-    margin-bottom: 20px;
 }
+
+
+
+/*
+1.  What is important to know when linking an external file (like a stylesheet) to an HTML file?
+    It's important to remember that the link must be placed in the <head> tags and to specify what kind of file it is (CSS, JavaScript, Ruby, etc.) in the type attribute.
+
+2.  What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+    My partner and I used W3Schools to find different CSS attributes and their values. We didn't use any float, display, or position CSS attributes. Instead, we used margins, border, text-align, font, and color. The hard part was trying to find the correct size values and to space out the elements.
+
+3.  What CSS did you use to modify the element style (like size, color, etc.)
+    We used text-align when we needed to center things instead of using the HTML <center> tags. We used font-size to change the size of the font and line-height to change the spacing between the different tags (reduced the spacing around paragraphs and header tags). We also used background-color and color to change the colors of the background and text. We used vertical-align to make the td content line up at the top of the cell instead of the center. We used margins to add spacing around certain elements.
+
+4.  Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+    Yes we did. We decided to delete the center tags and replace them with header, footer, and div tags. We used a class to create the lines and an ID to grab the Geico section of the page. This allowed us to have more control in the CSS.
+
+5.  When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+    Even though our code was similar, I think our code was better because we were able to adjust the different sized characters without giving them IDs. Our code would have been even clearner if we had enough time because we were originally going to make the code even cleaner by not putting each link item in the lists into their own unordered list tags and instead putting everything into one giant list and splitting it up into two columns in the CSS, but we weren't able to find out how to add the bullets in the second column. We were then thinking about creating two individual lists and using the float attribute, but we ran out of time.
+*/
