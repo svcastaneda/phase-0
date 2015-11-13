@@ -14,7 +14,6 @@ print "Hello, ", firstName, " ", middleName, " ", lastName , "!"
 puts "What is your favorite number?"
 favNum = gets.chomp.to_i
 better = favNum + 1
-<<<<<<< HEAD
 print "That's nice, but ", better, " is bigger and better."
 
 
@@ -44,6 +43,3 @@ print "That's nice, but ", better, " is bigger and better."
 
 
 
-=======
-print "That's nice, but ", better, " is bigger and better."
->>>>>>> 81c64a7a02f9c970cac6f522d3a361b70beaec5e
