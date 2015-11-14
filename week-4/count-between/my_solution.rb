@@ -19,7 +19,10 @@ def count_between(list_of_integers, lower_bound, upper_bound)
   count = 0
   
   list_of_integers.each do |num|
-    if lower_bound <= num and num <= upper_bound
+    # if lower_bound <= num and num <= upper_bound
+#       count += 1
+#     end
+    if num.between?(lower_bound, upper_bound)
       count += 1
     end
   end
