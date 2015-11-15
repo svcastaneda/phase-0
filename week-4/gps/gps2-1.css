@@ -1,0 +1,39 @@
+body {
+    background-color: #97D3C2;
+}
+
+h1 {
+    text-align:center;
+}
+
+h2 {
+    border-bottom: 1px solid grey;
+    min-height: 57px;
+    vertical-align: text-bottom;
+}
+
+p {
+    font-family: 'open sans', arial, sans-serif;
+}
+
+a:hover {
+    color: white;
+}
+
+.column-1 {
+    float: left;
+    width: 46%;
+    padding: 0 2%;
+}
+
+.column-2 {
+    float: right;
+    width: 46%;
+    padding: 0 2%;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding-top: 3em;
+}
