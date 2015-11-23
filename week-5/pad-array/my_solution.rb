@@ -2,7 +2,7 @@
 
 # I worked on this challenge with: Josephp Scott
 
-# I spent 1 hours on this challenge.
+# I spent 1 hour on this challenge.
 
 
 # Complete each step below according to the challenge directions and
