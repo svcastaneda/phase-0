@@ -1,8 +1,8 @@
 # Class Warfare, Validate a Credit Card Number
 
 
-# I worked on this challenge [by myself, with: ].
-# I spent [#] hours on this challenge.
+# I worked on this challenge with: Jack Abernethy.
+# I spent 1 hour on this challenge.
 
 # Pseudocode
 
@@ -105,3 +105,12 @@ end
 
 
 # Reflection
+
+# What was the most difficult part of this challenge for you and your pair?
+# => Figuring out how to write code for every other digit was difficult. We ended up just creating a local variable called odd (even_index in the refactored solution). We negated the value after each iteration in the for loop. 
+#
+# What new methods did you find to help you when you refactored?
+# => We got rid of our is_valid? method and instead checked for validity during initiation.
+#
+# What concepts or learnings were you able to solidify in this challenge?
+# => This was actually really good math practice because my partner and I had to figure out how to get onee digit at a time. In order to do that, we used a modulo to get the ones place.
