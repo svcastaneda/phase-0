@@ -1,8 +1,8 @@
 # Your Names
-# 1)
-# 2)
+# 1) Bob Dorff
+# 2) Saundra Castaneda
 
-# We spent [#] hours on this challenge.
+# We spent 1 hour on this challenge.
 
 # Bakery Serving Size portion calculator.
 
@@ -42,11 +42,6 @@
 # This pad is reserved for a student in the Chorus Frogs cohort. 
 
 
-# Your Names
-# 1)
-# 2)
-# We spent [#] hours on this challenge.
-
 
 def serving_size_calc(item_to_make, order_quantity)
   library = {"cookie" => 1, "cake" =>  5, "pie" => 7}
@@ -76,4 +71,14 @@ p serving_size_calc("THIS IS AN ERROR", 5)
 
 #  Reflection
 
-
+# What did you learn about making code readable by working on this challenge?
+# => I learned that it's important to have descriptive variable names
+#
+# Did you learn any new methods? What did you learn about them?
+# => I learned about the between? method, which checks if a certain element is between 2 values. If the element you are checking is a number, the method checks if it is between 2 numbers. If you are checking a string, the method checks if it is between 2 string values (similar to checking the order in a dictionary).
+#
+# What did you learn about accessing data in hashes?
+# => I learned/reviewed that in order to access data in a hash, you must call its key because hashes are not indexed.
+#
+# What concepts were solidified when working through this challenge?
+# => How to create formatted strings (passing in custom variables), how to raise a custom error, and how to make descriptive variable names.
