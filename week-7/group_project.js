@@ -22,6 +22,34 @@
 // 3. if the array has an even amount of items, return an array that contains the middle 2 numbers by using floor & ceiling
 //		else, return an array that contains the element with the index equal to middle
 
+var sum = function(numbers) {
+	var total = 0;
+	for (var i = 0; i < numbers.length; i++) {
+		total += numbers[i];
+	};
+	return total;
+};
+
+var mean = function(numbers) {
+	var total = sum(numbers);
+	return total/numbers.length;
+}
+
+var median = function(numbers) {
+	numbers.sort();
+	var middle = (numbers.length-1)/2;
+	if (numbers.length%2==0) {
+		return [numbers[Math.floor(middle)], numbers[Math.ceil(middle)]];
+	}
+	else {
+		return [numbers[middle]];
+	}
+}
+
+numbers = [1, 2, 3, 4, 5];
+console.log(sum(numbers));
+console.log(mean(numbers));
+console.log(median(numbers));
 
 // Person 3:
 
