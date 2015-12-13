@@ -1,22 +1,24 @@
 # Virus Predictor
 
-# I worked on this challenge [by myself, with: ].
-# We spent [#] hours on this challenge.
+# I worked on this challenge with: Alex Mitzman.
+# We spent 1 hour on this challenge.
 
 # EXPLANATION OF require_relative
 #
-#
+# require_relative is a realtive path to the location of the file.  Don't need to include .rb if you are already in a ruby file.
+# use require when loading gems which are like libraries.
+
 require_relative 'state_data'
 
 class VirusPredictor
-  
+
   # Defining instance variables and allows us to create an instance of the class.
   def initialize(state_of_origin, population_density, population)
     @state = state_of_origin
     @population = population
     @population_density = population_density
   end
-  
+
   # Calling two methods that are defined below in the class
   def virus_effects
     predicted_deaths#(@population_density, @population, @state)
@@ -25,7 +27,7 @@ class VirusPredictor
 
   # private
 
-  
+
   # Depending on the population density, it will run a formula to predict the number of deaths
   def predicted_deaths#(population_density, population, state)
     # predicted deaths is solely based on population density
@@ -36,7 +38,7 @@ class VirusPredictor
     when 150..199 then number_of_deaths = (@population * 0.3).floor
     else number_of_deaths = (@population * 0.4).floor
     end
-    
+
     # if @population_density >= 200
     #   number_of_deaths = (@population * 0.4).floor
     # elsif @population_density >= 150
@@ -52,7 +54,7 @@ class VirusPredictor
     print "#{@state} will lose #{number_of_deaths} people in this outbreak"
 
   end
-  
+
   # Depending on the population density of the state, it will return a speed of how fast the disease will spread.
   def speed_of_spread#(population_density, state) #in months
     # We are still perfecting our formula here. The speed is also affected
@@ -65,7 +67,7 @@ class VirusPredictor
     when 150..199 then speed = 1
     else speed = 0.5
     end
-    
+
 
     # if @population_density >= 200
     #   # speed += 0.5
