@@ -118,7 +118,7 @@ for (vote in voteCount) {
 // can keep your thoughts and code organized.
 //
 // Were you able to find useful methods to help you with this?
-// 
+// I learned about the hasOwnProperty, which I used to check if the voteCount hash had a name in it or not.
 //
 // What concepts were solidified in the process of working through this challenge?
 // Iterating through hashes and comparing/getting the values.
